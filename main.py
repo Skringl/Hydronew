@@ -39,7 +39,7 @@ def result(peleng, Target, Dist_r):
 
 
 
-def signal(SignalType, AngleT, DistT):
+def signal(AngleT, DistT):
     c = 1500
     M = 2
     d = 1
@@ -190,7 +190,7 @@ def target(TargetType, Angle, Dist):
         AngleT.append(mth.degrees(mth.atan((DY1 + DistY[j])/(DX1 + DistX[j]))))
     ###
 
-    signal( AngleT, DistT)
+    signal(AngleT, DistT)
 
 
 
